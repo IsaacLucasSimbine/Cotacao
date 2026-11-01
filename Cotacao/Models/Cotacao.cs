@@ -17,4 +17,13 @@ public class Cotacao
     public string ResponsavelNome { get; set; } = string.Empty;
 
     public List<CotacaoArtigo> Artigos { get; set; } = new();
+
+    // Dados da empresa (para impressão/PDF)
+    public string EmpresaNome { get; set; } = string.Empty;
+    public string EmpresaNuit { get; set; } = string.Empty;
+    public string EmpresaEndereco { get; set; } = string.Empty;
+    public string EmpresaContactos { get; set; } = string.Empty;
+    public string EmpresaEmail { get; set; } = string.Empty;
+    public string EmpresaBanco { get; set; } = string.Empty;
+    public string LogotipoPath { get; set; } = string.Empty;
 }

@@ -11,6 +11,13 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.0" />
+    <PackageReference Include="PuppeteerSharp" Version="25.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TemplateCotacao.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
